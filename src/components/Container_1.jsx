@@ -13,7 +13,7 @@ const Container = () => {
   return (
     <AnimatePresence>
       <section className="pl-16 pr-16 pt-16 bg-gradient-to-br from-black via-slate-700 to-slate-300">
-        <div className="w-auto h-1/3 grid grid-cols-1 md:grid-cols-2  md:justify-between ">
+        <div className="w-max h-1/3 grid grid-cols-1 md:grid-cols-2  md:justify-between ">
           <motion.div
             initial="init"
             whileInView="ani"
