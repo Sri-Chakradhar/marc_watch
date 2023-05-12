@@ -7,7 +7,7 @@ import Container3 from "@/components/Container_3";
 
 const Main = () => {
   return (
-    <d className="App font-serif">
+    <d className="w-max font-serif ">
       <span name="main page">
         <Navbar />
         <div className="shadow-2xl">
