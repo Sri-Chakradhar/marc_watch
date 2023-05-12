@@ -7,8 +7,8 @@ import Container3 from "@/components/Container_3";
 
 const Main = () => {
   return (
-    <d className="w-max font-serif ">
-      <span name="main page">
+    <div className="w-max font-serif ">
+      <span name="main page" >
         <Navbar />
         <div className="shadow-2xl">
           <Container />
@@ -16,7 +16,7 @@ const Main = () => {
         </div>
         <Contacts_info />
       </span>
-    </d>
+    </div>
   );
 };
 
