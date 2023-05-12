@@ -12,7 +12,7 @@ const Contacts_info = () => {
               type="text"
               className="border-2 border-black focus:outline-none px-2 cursor-text hover:bg-slate-200 h-10 w-1/2 rounded-md rounded-r-none"
             ></input>
-            <button className="bg-black hover:bg-slate-950 text-white text-lg p-1 px-4 text-opacity-80 rounded-md rounded-l-none">
+            <button className="bg-black transform hover:scale-110 duration-300 hover:bg-slate-950 text-white text-lg p-1 px-4 text-opacity-80 rounded-md rounded-l-none">
               Ok
             </button>
           </div>

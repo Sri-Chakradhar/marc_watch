@@ -6,11 +6,11 @@ const StringAni = (props) => {
     <AnimatePresence>
       <motion.div
         initial={{ opacity:0,x:-40}}
-              animate={{x:0,opacity:1}}
+              whileInView={{x:0,opacity:1}}
               transition={{ ease:"easeOut", duration:1,delay:0.5}}
               
       >
-        <p>{props.name}</p>
+        <p className="cursor-default">{props.name}</p>
       </motion.div>
     </AnimatePresence>
   );

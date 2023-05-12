@@ -1,9 +1,14 @@
+import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
 
+
 const Route = (props) => {
+    const userrout = useRouter();
+
     return(
-        <div className="p-6 text-center text-2xl">
-            <a className="hover:transform hover:scale-50 hover:text-slate-600" href={props.href}>{props.name}</a>
+        <div className="p-6 transform hover:scale-110 duration-300 text-center text-2xl">
+            <p onClick = {() =>userrout.push(props.href)} className="cursor-pointer hover:text-slate-700">{props.name}</p>
         </div>
     )
 }
