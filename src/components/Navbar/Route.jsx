@@ -8,7 +8,7 @@ const Route = (props) => {
 
     return(
         <div className="p-6 transform hover:scale-110 duration-300 text-center text-2xl">
-            <p onClick = {() =>userrout.push(props.href)} className="cursor-pointer hover:text-slate-700">{props.name}</p>
+            <Link href={props.href} className="cursor-pointer hover:text-slate-700">{props.name}</Link>
         </div>
     )
 }
