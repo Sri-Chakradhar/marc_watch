@@ -5,15 +5,15 @@ import StringAni from "./Text_animate";
 import { AnimatePresence, motion } from "framer-motion";
 
 const Imagetrasition = {
-  init:{ scale: 1.5, opacity: 0, y: 40 },
-  ani:{ y: 0, opacity: 1, scale: 1 },
+  init: { scale: 1.5, opacity: 0, y: 40 },
+  ani: { y: 0, opacity: 1, scale: 1 },
 };
 
 const Container = () => {
   return (
     <AnimatePresence>
-      <section className="pl-16 pr-16 pt-16 bg-gradient-to-br from-black via-slate-700 to-slate-300">
-        <div className="w-max h-max grid grid-cols-1 md:grid-cols-2 md:justify-between ">
+      <section className="w-full h-full p-16 bg-gradient-to-br from-black via-slate-700 to-slate-300">
+        <div className=" grid grid-cols-1 md:grid-cols-2 md:justify-between ">
           <motion.div
             initial="init"
             whileInView="ani"
@@ -21,9 +21,9 @@ const Container = () => {
             variants={Imagetrasition}
             className="lg:py-5 py-14 pl-20"
           >
-            <Image src={watch} alt="watch" className=" w-3/4 -rotate-12" />
+            <Image src={watch} alt="watch" className="w-3/4 -rotate-12" />
           </motion.div>
-          <div className="grid grid-rows-2 gap-40">
+          <div className="grid md:grid-rows-2 gap-40">
             <div className="grid grid-rows-2 gap-4 py-8">
               <div className="text-8xl">
                 <StringAni name="Weather Lite pro" />

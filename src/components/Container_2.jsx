@@ -11,8 +11,8 @@ const Imagetrasition2 = {
 
 const Container_2 = () => {
   return (
-    <section className="p-16  bg-gradient-to-tr from-black via-slate-700 to-slate-300 text-clip">
-      <div className="w-max h-max grid grid-cols-1 md:flex md:justify-between py-14 text-slate-100 items-center">
+    <section className="w-full h-full p-16  bg-gradient-to-tr from-black via-slate-700 to-slate-300 text-clip">
+      <div className="grid grid-cols-1 md:flex md:justify-between py-14 text-slate-100 items-center">
         <div className="grid gap-40">
           <div className="grid grid-rows-2 lg:gap-4 gap-7  py-14">
             <div className="text-8xl">
