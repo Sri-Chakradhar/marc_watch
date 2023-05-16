@@ -7,7 +7,7 @@ import Container3 from "@/components/Container_3";
 
 const Main = () => {
   return (
-    <div className="w-max font-serif bg-gradient-to-b from-black via-slate-500 to-black  ">
+    <div className="w-max sm:w-full font-serif bg-gradient-to-b from-black via-slate-500 to-black  ">
       <span name="main page" >
         <Navbar />
         <div className="">

@@ -23,16 +23,16 @@ const Container = () => {
           >
             <Image src={watch} alt="watch" className="w-3/4 -rotate-12" />
           </motion.div>
-          <div className="grid md:grid-rows-2 gap-40">
+          <div className="grid md:grid-rows-2 gap-35">
             <div className="grid grid-rows-2 gap-4 py-8">
               <div className="text-8xl">
                 <StringAni name="Weather Lite pro" />
               </div>
               <div className="text-5xl">
-                <StringAni name="AI Powered" />
+                <StringAni name="AI Powered"/>
               </div>
             </div>
-            <div className="place-items-baseline text-md text-slate-800">
+            <div className="place-items-center text-md text-slate-800">
               <div className="p-2 hover:text-slate-900 text-lg">
                 <StringAni name="Terms & Conditions Apply" />
               </div>
