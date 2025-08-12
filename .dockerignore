@@ -1,0 +1,31 @@
+# Node dependencies
+node_modules
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+
+# CI/CD artifacts
+jenkins/
+terraform/
+k8s/
+
+# Env files (never put secrets in image)
+.env
+.env.local
+.env.*.local
